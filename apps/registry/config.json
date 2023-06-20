@@ -1,0 +1,17 @@
+{
+  "$schema": "../schema.json",
+  "name": "Docker Registry 2.0",
+  "port": 8255,
+  "available": true,
+  "exposable": true,
+  "id": "registry",
+  "tipi_version": 2,
+  "version": "2.0",
+  "categories": ["development"],
+  "description": "Docker Registry is a stateless, highly scalable server side application that stores and lets you distribute Docker images. The Registry is open-source, under the permissive Apache license",
+  "short_desc": "Docker Registry to store and distribute Docker images",
+  "author": "",
+  "source": "",
+  "website": "",
+  "form_fields": []
+}
