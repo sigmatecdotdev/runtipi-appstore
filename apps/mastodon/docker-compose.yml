@@ -3,7 +3,7 @@ version: "3"
 services:
   mastodon:
     container_name: mastodon
-    image: lscr.io/linuxserver/mastodon:4.1.2
+    image: lscr.io/linuxserver/mastodon:4.1.6
     ports:
       - 8209:80
       - ${APP_PORT}:443
@@ -79,7 +79,7 @@ services:
     networks:
       - tipi_main_network
     healthcheck:
-      test: ['CMD', 'pg_isready', '-U', 'postgres']
+      test: ['CMD', 'pg_isready', '-U', 'tipi']
     volumes:
       - ${APP_DATA_DIR}/data/postgres:/var/lib/postgresql/data
 
